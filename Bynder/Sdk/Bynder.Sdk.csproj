@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net48</TargetFrameworks>
-    <AssemblyVersion>2.2.11.0</AssemblyVersion>
-    <FileVersion>2.2.11.0</FileVersion>
+    <AssemblyVersion>2.2.11.1</AssemblyVersion>
+    <FileVersion>2.2.11.1</FileVersion>
     <Company>Bynder</Company>
     <Product>Bynder.Sdk</Product>
     <Copyright>Copyright © Bynder</Copyright>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>2.2.11</PackageVersion>
+    <PackageVersion>2.2.11.1</PackageVersion>
     <Authors>BynderDevops</Authors>
     <Description>The main goal of this SDK is to speed up the integration of Bynder customers who use C# making it easier to connect to the Bynder API (http://docs.bynder.apiary.io/) and executing requests on it.</Description>
     <PackageIcon>BynderLogo.png</PackageIcon>
@@ -20,9 +20,10 @@
     <PackageReleaseNotes>Fixes the data-type for property representing active focus point in the original media item.</PackageReleaseNotes>
     <Summary>The main goal of this SDK is to speed up the integration of Bynder customers who use C# making it easier to connect to the Bynder API (http://docs.bynder.apiary.io/) and executing requests on it.</Summary>
     <PackageTags>Bynder API C# SDK</PackageTags>
-    <Title>Bynder.Sdk</Title>
-    <PackageId>Bynder.Sdk</PackageId>
+    <Title>Delaware Custom Bynder Sdk</Title>
+    <PackageId>DlwNiels.Netafim.DAM</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/dlwniels/bynder-c-sharp-sdk-asset-tracking</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
